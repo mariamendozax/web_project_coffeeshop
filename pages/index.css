@@ -58,10 +58,6 @@
   text-decoration: none;
 }
 
-.header__text {
-  max-width: 709px;
-}
-
 .header__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -71,6 +67,7 @@
   letter-spacing: 1px;
   margin-top: 183px;
   margin-left: 80px;
+  max-width: 709px;
 }
 
 .span-accent {
@@ -91,6 +88,7 @@
   line-height: 30px;
   margin-left: 80px;
   margin-top: 28px;
+  max-width: 709px;
 }
 
 .header__image {
@@ -103,43 +101,27 @@
 
 .header__footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   margin-top: auto;
-  padding: 40px 80px;
-}
-
-.header__hours-title {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 0 0 16px 0;
-}
-
-.header__hours-item {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 8px 0;
-}
-
-.header__address {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  text-align: right;
-  align-self: flex-end;
+  margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 40px;
+  align-items: baseline;
+}
+
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__paragraph-address {
+  align-self: flex-end;
 }
 
 .content {
