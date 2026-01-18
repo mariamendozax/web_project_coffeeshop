@@ -1,0 +1,22 @@
+.footer {
+  background-color: #0a2850;
+  min-height: 720px;
+  margin-top: auto;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}

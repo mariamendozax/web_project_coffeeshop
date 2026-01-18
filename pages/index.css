@@ -1,9 +1,12 @@
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/nav.css);
 @import url(../blocks/recipes.css);
 @import url(../blocks/reservation.css);
 @import url(../blocks/form.css);
+@import url(../blocks/footer.css);
 
 * {
   margin: 0;
@@ -14,15 +17,6 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.content {
-  background-color: #0a2850;
-  background-image: url(../images/background_recipes.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 }
