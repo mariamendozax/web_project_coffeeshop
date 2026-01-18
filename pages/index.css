@@ -240,9 +240,8 @@ body {
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reservation__form {
