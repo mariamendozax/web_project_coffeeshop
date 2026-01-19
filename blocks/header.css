@@ -4,7 +4,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -48,6 +50,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 1;
 }
 
 .header__footer {
@@ -73,4 +76,5 @@
 
 .header__paragraph-address {
   align-self: flex-end;
+  z-index: 2;
 }
